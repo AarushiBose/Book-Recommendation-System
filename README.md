@@ -19,17 +19,26 @@ Features:-
 
 ## Files and Structure
 **app.py:** Main Flask application to render templates and handle requests.
+
 **popular.pkl:** Contains data on popular books with details like title, author, image, rating, and votes.
-**pt.pkl:** Pivot table used for collaborative filtering.
+
+**pt.pkl:** Pivot table used for collaborative filtering
+
 **books.pkl:** Complete book dataset with details for each book.
+
 **similarity_scores.pkl:** Precomputed similarity scores used for finding similar books.
+
 **templates/index.html:** Homepage displaying popular books.
+
 **templates/recommend.html:** Page to accept user input and show recommended books.
 
 ## Data Requirements
 The system requires preprocessed datasets in pickle format:
+
 **popular.pkl** contains popular book data.
+
 **pt.pkl** and **books.pkl** hold details for similarity calculation.
+
 **similarity_scores.pkl** stores precomputed cosine similarity scores.
 
 ## Usage
