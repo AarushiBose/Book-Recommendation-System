@@ -64,3 +64,16 @@ Displays the top 50 popular books along with their author, rating, and cover ima
    
 **4. Data Processing:**
    The model relies on precomputed similarity scores to deliver quick recommendations.
+
+## Demonstrative Images
+![image](https://github.com/user-attachments/assets/e17d060a-fa18-4a38-9be2-2c4be57fd467)
+
+![image](https://github.com/user-attachments/assets/67dc31ff-1ff6-4913-80ab-489b3f6d3c3d)
+
+![image](https://github.com/user-attachments/assets/039a4b8f-f8a2-47ca-8b78-57f364c872f4)
+
+![image](https://github.com/user-attachments/assets/beeb18d2-6329-486a-8f37-b4795ba2de2f)
+
+
+
+
