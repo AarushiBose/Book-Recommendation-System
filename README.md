@@ -3,6 +3,11 @@
 ## Description
 This Book Recommender System recommends books based on user input using collaborative filtering. The project leverages preprocessed data and similarity scores to deliver book suggestions. It includes a Flask-based backend and a user-friendly interface for book selection and recommendations.
 
+## DataSet
+Link - https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
+
+The Book-Crossing dataset is a comprehensive collection of user interactions with books, designed for developing and testing recommender systems. It includes three main files: Users, containing anonymized user IDs with demographic information like location and age; Books, identified by ISBN with details such as title, author, publication year, publisher, and cover image links from Amazon; and Ratings, recording explicit and implicit ratings (from 1–10, or 0 if implicit) by users for books. This dataset is well-suited for building collaborative or content-based recommendation models, as it combines user preferences with detailed book metadata.
+
 ## Project Overview
 This project implements a collaborative filtering-based recommendation system with Flask as the backend and HTML/CSS for the frontend. Users can browse popular books and get personalized recommendations by entering a book title. The recommendation system utilizes a cosine similarity-based approach to match similar books.
 
@@ -40,10 +45,13 @@ Displays the top 50 popular books along with their author, rating, and cover ima
 
 **1. Backend:**
    Flask handles request routing, rendering templates, and processing recommendations.
+   
 **2. Frontend:**
    Bootstrap-based HTML/CSS for responsive pages.
+   
 **3. Recommendation Algorithm:**
    Cosine Similarity is used to compute similarity scores between books.
    Collaborative Filtering model suggests books based on user input.
+   
 **4. Data Processing:**
    The model relies on precomputed similarity scores to deliver quick recommendations.
