@@ -11,7 +11,7 @@ The Book-Crossing dataset is a comprehensive collection of user interactions wit
 ## Project Overview
 This project implements a collaborative filtering-based recommendation system with Flask as the backend and HTML/CSS for the frontend. Users can browse popular books and get personalized recommendations by entering a book title. The recommendation system utilizes a cosine similarity-based approach to match similar books.
 
-Features:- 
+## Features:- 
 
 **- Popular Books Display:** Displays the top-rated and most popular books.
 
