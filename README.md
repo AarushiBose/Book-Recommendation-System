@@ -14,7 +14,9 @@ This project implements a collaborative filtering-based recommendation system wi
 Features:- 
 
 **- Popular Books Display:** Displays the top-rated and most popular books.
+
 **- Book Recommendations:** Recommends books similar to user-selected titles.
+
 **- User-Friendly Interface:** A responsive and intuitive interface built with Bootstrap and Flask for easy navigation.
 
 ## Files and Structure
