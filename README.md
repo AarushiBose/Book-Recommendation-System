@@ -1,5 +1,8 @@
 # Book Recommendation System
 
+![image](https://github.com/user-attachments/assets/bf7e4195-5fa8-4a3b-a670-c4652618b9bf)
+
+
 ## Description
 This Book Recommender System recommends books based on user input using collaborative filtering. The project leverages preprocessed data and similarity scores to deliver book suggestions. It includes a Flask-based backend and a user-friendly interface for book selection and recommendations.
 
